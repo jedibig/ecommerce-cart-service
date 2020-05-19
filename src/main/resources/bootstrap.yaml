@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://${confighost:3.87.29.41}:8888/
+  application:
+    name: cart-service
